@@ -1,0 +1,25 @@
+#main { 
+	margin: auto 10px;
+	
+}
+#fondo {
+	background: url(../img/fondo.png)center no-repeat;
+	background-size: 350px;
+	width: 100%;
+	height: 400px;
+}
+#mainh{
+	font-size: 50px;
+	color: #3c0283;
+	font-weight: bolder;
+}
+#newsletter p{
+	font-size: 18px;
+	text-align: left;
+	margin: 20px auto;
+}
+#formboletin input{
+border: 1px solid #3c0283;
+border-radius: 50px;
+}
+

@@ -1,0 +1,87 @@
+@media only screen and (min-width: 768px) {
+
+/* Inicio newsletter */
+    #main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 'newsletter fondo';
+    }
+    #newsletter {
+        grid-area: newsletter;
+        margin: auto;
+    }
+    #fondo {
+        grid-area: fondo;
+        margin: auto;
+    }
+    /* final newsletter */
+    /* --------------------------------------------------------------- */
+    /* inicio servicios */
+    #contenedorServicio{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-areas:'trans asesoría talleres';
+    }
+    #trans {
+        grid-area: trans;
+    }
+    #ases {
+        grid-area: asesoría;
+    }
+
+    #taller {
+        grid-area: talleres;
+    }
+    /* final servicios */
+    /* --------------------------------------------------------------------- */
+    /* Inicio about */
+    #about {
+        display:grid;
+        grid-template-rows: 2 auto;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 'beca lic' 'beca activista';
+    }
+    #becafoto {
+        grid-area: beca;
+    }
+    #about h2 {
+        grid-area: lic;
+        margin: auto auto auto 0;
+    }
+    #about p {
+        grid-area: activista;
+        margin: 0 auto auto auto;
+    }
+    /* final about */
+    /* ----------------------------------------------------------------------- */
+    /* Inicio talleres */
+    #talleres {
+        margin: auto;
+        display: grid;
+        grid-template-rows: 2 auto;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 'taller ig' 'detalles ig';
+    }
+    #talleres h2{
+        grid-area: taller;
+        margin: auto;
+    }
+    #talleres article {
+        grid-area: ig;
+    }
+    #detalles {
+        grid-area: detalles;
+        margin: auto;
+    }
+     /* final talleres */
+     /* ------------------------------------------------------------------------ */
+     /* inicio post-blog */
+     .container1 {
+        display: inline-block;
+        margin-left:3%; 
+     }
+     /* final post-blog */
+
+
+
+  }

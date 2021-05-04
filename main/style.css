@@ -1,0 +1,17 @@
+/*
+Theme Name: Proyecto web;
+Author: Byron;
+Version: 1.0;
+*/
+@import "css/normalize.css";
+@import "css/navigation.css";
+@import "css/newsletter.css";
+@import "css/servicios.css";
+@import "css/clientes.css";
+@import "css/about.css";
+@import "css/taller.css";
+@import "css/post_front_page.css";
+@import "css/contacto.css";
+@import "css/footer.css";
+@import "css/768.css";
+@import "css/1024.css";

@@ -1,0 +1,138 @@
+@media only screen and (min-width: 1024px) {
+   /* normalize */
+   p, blockquote{
+       font-size: 24px;
+   }
+    /* inicio menu */
+    #navHeader {
+        display: grid;
+        grid-template-columns:  auto;
+        grid-template-areas: 'logo  menu';
+    }
+    #burger {
+        display: none;
+        
+    }
+    #logo{
+        grid-area: logo;
+        margin: auto;
+    }
+    #menu, #menu.show {
+        grid-area: menu;
+        margin: auto;
+        position: relative;
+        width: inherit;
+        top:0;
+    }
+    #menu li {
+        display: inline-block;
+     
+    }
+    #menu li a {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    
+    /* final menu */
+    /* ---------------------------------------------------------------------------- */
+      /* inicio newsletter */
+      #main {
+        display: grid;
+        grid-template-columns: 15% 10% 25% 25% 10% 15%;
+        grid-template-areas: '. newsletter newsletter fondo fondo .' ;
+    }
+  
+      /* final newsletter */
+      /* --------------------------------------------------------------- */
+    /* inicio servicios */
+    #servicios {    display:grid;
+        grid-template-rows: 3 auto;
+        grid-template-columns: 15% 10% 25% 25% 10% 15%;
+        grid-template-areas: '. serviciosh2 serviciosh2 serviciosh2 serviciosh2 .' '. serviciosp serviciosp serviciosp serviciosp .' ' . contenedor contenedor contenedor contenedor .';
+    }
+    #servicios h2 {
+        grid-area: serviciosh2;
+    }
+    #servicios p {
+        grid-area: serviciosp;
+    }
+    #contenedorServicio{
+        grid-area: contenedor;
+    }
+    /* final servicios */
+       /* ---------------------------------------------------------------------------- */
+        /* Inicio about */
+    #about {
+        display:grid;
+        grid-template-rows: 2 auto;
+        grid-template-columns: 10% 10% 30% 30% 10% 10%;
+        grid-template-areas: 'beca beca beca lic lic .' 'beca beca beca activista activista .';
+    }
+    #becafoto {
+        grid-area: beca;
+        margin: auto;
+    }
+    #about h2 {
+        grid-area: lic;
+        margin: auto auto auto 0;
+    }
+    #about p {
+        grid-area: activista;
+        margin: 0 auto auto auto;
+    }
+    /* final about */
+    /* ----------------------------------------------------------------------- */
+    /*inicio post-blog*/
+    .container1 {
+  position: relative;
+  height: 300px;
+  width: 20%;
+  left: calc(40% - 300px);
+  display: inline-block;
+  margin-left: auto;
+}
+
+.card1 {
+   display: flex;
+  height: 310px;
+  width: 220px;
+ position: absolute;
+  left: 0px;
+}
+    /*Final Post-Blog*/
+    /*------------------------------------*/
+    /* inicio contacto */
+    #contacto {
+        display: grid;
+        grid-template-rows: 15% 65% 20%;
+        grid-template-columns: 10% 10% 30% 30% 10% 10%;
+        grid-template-areas: '. contacto contacto contacto contacto .' '. map map formu formu .' '. redes redes formu formu .';
+    }
+    #contacto h2 {
+        grid-area: contacto;
+        margin:auto;
+        font-size: 50px;
+    
+    }
+
+    #contacto blockquote {
+        grid-area:  frase;
+        margin: auto;
+    }
+    #redes {
+        grid-area: redes;
+        margin: auto;
+    }
+    #formu {
+        grid-area: formu;
+    }
+    #map{
+        grid-area: map;
+        margin: auto;
+    }
+    #map iframe {
+        width: 98%;
+    }
+    /* final contacto */
+
+}

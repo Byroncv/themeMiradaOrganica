@@ -1,0 +1,94 @@
+#contacto {
+  margin: auto 10px;
+}
+blockquote{
+	font-size: 20px;
+  text-align: center;
+}
+#contacto input{
+	display: block;
+	border-bottom: 1px solid #3c0283;
+  margin-bottom: 10px;
+ 
+}
+textarea {
+  border-style: none;
+  border-bottom: 1px solid #3c0283;
+  width: 100%;
+
+}
+::placeholder {
+  color: rgba(61, 61, 61,0.5);
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 1%;
+}
+
+#contacto input[type="checkbox"]{
+display: none;
+}
+#contacto span {
+  cursor: pointer;
+  display: block;
+  text-align: left;
+}
+
+#contacto input[type="checkbox"] + span:before {
+  border: 1px solid #3c0283;
+  border-radius: 3px;
+  content: " ";
+  display:inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+ #contacto input[type="checkbox"]:checked + span:before {
+  color: #014034;
+  content: "\2713";
+  font-size: 10px;
+ 
+}
+/*#checkbox span:nth-child(1){
+	position: relative;
+	
+}
+#checkbox span:nth-child(2){
+	position: relative;
+	
+}
+#checkbox span:nth-child(3){
+	position: relative;}*/
+	
+
+#contacto h2 {
+  text-align: left;
+  color: #3c0283;;
+
+}
+
+
+
+/* redes sociales */
+.fab {
+  font-size: 40px;
+  margin: 20px;
+  color: #3c0283;;
+
+}
+
+#redes{
+  text-align: center;
+}
+#map{
+  width: 100%;
+  height:100%;
+
+}
+#map iframe {
+  width: 100%;
+  height:100%;
+  margin-top: 0;
+}
+
+

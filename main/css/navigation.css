@@ -1,0 +1,106 @@
+#navHeader{
+    background: #0a0016;
+    display: grid;
+    grid-template-columns: 2 auto;
+    grid-template-rows: 2 auto;
+    grid-template-areas: 'logo burger''menu menu';
+}
+
+#logo {
+    background: url(../img/logo.png) center no-repeat;
+    background-size: 95%;
+    width: 250px;
+    height: 120px;
+    grid-area: logo;
+ 
+}
+
+/* menú dinámico */
+#burger{
+    width: 25px;
+    height: 25px;
+    margin:auto 20px auto auto ;
+    cursor: pointer;
+    position: relative; 
+    grid-area: burger;
+    display: flex;
+    justify-self: end;
+
+}
+
+#burger span, #burger span:before, #burger span:after{
+    background: #f3f3f3;
+    display: block;
+    height: 5px;
+    position: absolute;
+    transition: all 300ms ease;
+    border-radius: 20px;
+}
+#burger span:before, #burger span:after{
+    content:'';
+}
+
+#burger span{
+    right: 0;
+    top: 13px;
+    width: 25px;
+}
+
+#burger span:before{
+    left: 0;
+    top: -10px;
+    width: 15px;
+}
+#burger span:after{
+    left: 0;
+    top: 10px;
+    width: 20px;
+}
+#burger.close span{
+    transform: rotate(-45deg);
+    top: 13px;
+    width: 25px;
+}
+#burger.close span::before{
+    top:0;
+    left:0;
+    transform: rotate(90deg);
+    width: 25px;
+
+}
+
+#burger.close span::after{
+    top:0;
+    left:0;
+    transform: rotate(90deg);
+    width: 25px;
+}
+
+
+/* final del menú dinamico */
+#menu li a:hover, .fab:hover {
+	color: #D2951F;
+}
+#menu{
+    z-index: 2;	
+    text-align: center;
+    grid-area: menu;
+    position: absolute;
+    top: -800px;
+    transition: all 300ms ease;
+    width: 100vw;
+}
+#menu.show {
+   position: absolute;
+   top: 120px;
+   z-index: 2;  
+   background-color: #0a0016;
+   transition: all 800ms ease;
+   width: 100vw;
+ 
+}
+#menu li a{
+    font-size: 36px;
+    line-height: 72px;
+    color: #f3f3f3;
+}

@@ -1,0 +1,71 @@
+.container1 {
+  position: relative;
+  height: 320px;
+  display:block;
+}
+
+.card1 {
+   display: flex;
+  height: 310px;
+  width: 220px;
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+/*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+margin: auto;
+
+}
+
+/*.card:not(:first-child) {
+    margin-left: -50px;
+}*/
+
+.card1:hover {
+  transform: scale(1.1,1.1);
+  transition: 0.4s ease-out;
+}
+
+
+
+.filledbar {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 0px;
+  height: 100%;
+  background: #34D185;
+  transition: 0.6s ease-out;
+}
+
+.card1:hover .filledbar {
+  width:100%;
+  transition: 0.4s ease-out;
+}
+
+.circle1 {
+  position: relative;
+  top: 140px;
+  margin: 0 auto;
+  height: 150px; 
+}
+.card1 h2 a {
+  color: white;
+  }
+
+.contactofondo{
+  background:  url(../img/large.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+  margin: 50px 0px;
+}
+blockquote {
+  margin:25px;
+  color: white;
+
+}
