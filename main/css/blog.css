@@ -1,0 +1,86 @@
+.tips h2, #test, #opi h2, #principal, #consejos{
+	text-align: center;
+}
+
+#consejos h2{
+	color: #3c0283;
+}
+
+
+#principal h3{
+	color: #3c0283;
+	margin-bottom: 10px;
+}
+
+#principal{
+	width: 40%;
+	margin: 0 auto;
+}
+
+#principal img{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 60px;
+	opacity: 80%;
+}
+
+.tips{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding: 25px;
+
+}
+
+.tips p, hr{
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+
+.tip{
+	width: 30%;
+	margin: 10px;
+	border: 1px solid #ccc;
+	padding: 10px;
+
+}
+
+.image-responsive img{
+	width: 100%;
+
+}
+/*inicio post del blog*/
+     .blog {
+     	background-color: white;
+		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+		margin: 20px;
+		padding: 50px;
+        display: grid;
+        grid-column-gap: 50px;
+        grid-template-rows: auto;
+     	grid-template-areas: 'blogtitle''blogimage ' 'blogarticle' ' blogbutton';
+         justify-content: center;
+     }
+     .blogtitle{
+     	text-align: center;
+        grid-area: blogtitle;
+     }
+     .blogthumbnail {
+       
+        grid-area: blogimage;
+     }
+     .blogthumbnail img {
+     	width: 250px;
+     	height: 250px;
+     	margin: 20px auto;
+     	display: flex;
+     }
+     .blogarticle{
+    	text-align: center;
+        grid-area: blogarticle;
+     }
+     .blogbutton {
+        grid-area: blogbutton
+     }
+     /*final post del blog*/

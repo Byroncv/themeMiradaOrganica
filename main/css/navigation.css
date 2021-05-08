@@ -92,7 +92,7 @@
 }
 #menu.show {
    position: absolute;
-   top: 120px;
+   top: 135px;
    z-index: 2;  
    background-color: #0a0016;
    transition: all 800ms ease;

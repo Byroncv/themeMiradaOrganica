@@ -4,11 +4,10 @@ get_header();
 ?>
 
 			
-		</nav>
-			<!-- cierre de redes y logo -->
-			<!------------------------------------------------->
+		
+		
 			<!--call to action, boletín-->
-			<div id="main">
+			<div id="main" class="margen">
 				<div id="fondo"></div>
 
 				<main id="newsletter">
@@ -30,7 +29,7 @@ get_header();
 			<!--Termina call to action-->
 			<!------------------------------------------------->
 			<!--seccion de servicios-->
-		<div id="servicios">
+		<div id="servicios" class="margen">
 			<h2 tabindex="0">Podés lograr una alimentación
 				responsable</h2>
 				<p>Sin dietas militares ni explotación animal</p>
@@ -55,12 +54,20 @@ get_header();
 		<!--termina la sección de servicios-->
 		<!------------------------------------------------->
 		<!--inicia la sección de opinion de clientes-->
-			 
+			 <section id="opi">
+			<h2>Testimonio</h2>
+			
+			<div id="cuadro">
+				<img src="<?php echo get_theme_file_uri('/img/byron.jpg');?>" alt="Testimonio">
+				<q>Rebeca es una excelente profesional, dedicada, apasionada y con un conocimiento increíble y al ser vegana por los animales da una sensación de confianza que no se encuentra en otro lugar.</q>
+			</div>
+			
+		</section>
 		<!--Termina la sección de opinion de clientes-->
 		<!------------------------------------------------->
 		<!--ínicia la sección de about me-->
 	
-		<section id="about">
+		<section id="about" class="margen">
 			
 			<h2 tabindex="0">Soy la Licenciada Rebeca Coto </h2>
 			<div id="becafoto" alt="Avatar de la lic. Rebeca"  tabindex="0" role="img" loading="lazy"> </div>
@@ -76,7 +83,7 @@ get_header();
 		<!------------------------------------------------->
 		<!--Inicia formulario de contacto-->
 		
-			<section class="contactofondo">
+			<section class="contactofondo ">
 				<div style="background: rgba(0,0,0,0.5);">
 			<blockquote>“La salud es una relación entre tu mente y tu cuerpo.”</blockquote>
 		<?php
@@ -109,7 +116,7 @@ get_header();
 
        			</div>
 			</section>
-			<section id="contacto">
+			<section id="contacto" >
 			<h2 tabindex="0">Contáctenos</h2>
 			
 			<div id="formu">

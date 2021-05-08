@@ -1,0 +1,30 @@
+#opi h2{
+	color: #3c0283;
+	margin-bottom: 20px;
+}
+
+#opi img{
+	width:120px;
+    height:120px;
+    border-radius:150px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#cuadro{
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+	box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+	 0 0  0 2px rgb(255,255,255),
+	 0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+#cuadro q{
+	text-align: center;
+}
+#opi {
+	margin:10px;
+}

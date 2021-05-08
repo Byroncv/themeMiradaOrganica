@@ -1,0 +1,28 @@
+.single {
+	margin: 20px;
+}
+.singletitle{
+margin: 20px auto;
+}
+.singlethumbnail img{
+	width: 100%;
+	height: auto;
+	display: flex;
+	margin: 20px auto;
+}
+
+.singlearticle {
+	margin: 20px auto;
+}
+
+.singlebutton {
+	background:#3c0283;
+	border-radius: 50px;
+	color: #f3f3f3;
+	width: 100%;
+	display: block;
+	text-align: center;
+	height: 25px;
+}
+.singlebutton:hover {
+	background:#D2951F;}

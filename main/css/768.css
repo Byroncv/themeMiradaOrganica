@@ -53,27 +53,6 @@
         margin: 0 auto auto auto;
     }
     /* final about */
-    /* ----------------------------------------------------------------------- */
-    /* Inicio talleres */
-    #talleres {
-        margin: auto;
-        display: grid;
-        grid-template-rows: 2 auto;
-        grid-template-columns: 50% 50%;
-        grid-template-areas: 'taller ig' 'detalles ig';
-    }
-    #talleres h2{
-        grid-area: taller;
-        margin: auto;
-    }
-    #talleres article {
-        grid-area: ig;
-    }
-    #detalles {
-        grid-area: detalles;
-        margin: auto;
-    }
-     /* final talleres */
      /* ------------------------------------------------------------------------ */
      /* inicio post-blog */
      .container1 {
@@ -81,7 +60,31 @@
         margin-left:3%; 
      }
      /* final post-blog */
-
+     /* ------------------------------------------------------------------------ */
+     /*inicio single.php*/
+     .single {
+        display: grid;
+        grid-column-gap: 50px;
+        grid-template-rows: auto;
+        grid-auto-columns: 30% 60%;
+        grid-template-areas: 'singletitle singlearticle'
+         'singleimage singlearticle' 'singlebutton singlearticle' '. singlearticle' '. singlearticle' '. singlearticle' '. singlearticle' '. singlearticle';
+         justify-content: center;
+     }
+     .singletitle{
+        grid-area: singletitle;
+     }
+     .singlethumbnail {
+       
+        grid-area: singleimage;
+     }
+     .singlearticle{
+        grid-area: singlearticle;
+     }
+     .singlebutton {
+        grid-area: singlebutton
+     }
+     /*final single.php*/
 
 
   }

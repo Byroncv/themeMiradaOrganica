@@ -134,5 +134,15 @@
         width: 98%;
     }
     /* final contacto */
-
+ /*------------------------------------*/
+    /*inicio blog*/
+    .blog {
+        width: 40%;
+        margin: 20px auto !important;
+    }
+    /*final blog*/
+    /*testimonios*/
+    #cuadro{
+    width: 30%;
+    
 }
