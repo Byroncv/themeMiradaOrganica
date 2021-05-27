@@ -22,4 +22,6 @@
 border: 1px solid #3c0283;
 border-radius: 50px;
 }
-
+#neswletter {
+	opacity: 0;
+}

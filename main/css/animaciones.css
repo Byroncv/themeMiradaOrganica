@@ -1,0 +1,71 @@
+/*clase para poner opacidad*/
+.animado, .animado2, .animado3{
+	opacity: 0;
+	transition: all ease 1.5s;
+}
+
+.mostrarArriba {
+	animation: mostrarArriba 1s;
+}
+
+@keyframes mostrarArriba {
+	0% {
+		transform: translateY(60px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+.mostrarIzquierda {
+	animation: mostrarIzquierda 1.5s;
+}
+
+@keyframes mostrarIzquierda {
+	0% {
+		transform: translateX(-60px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+.mostrarDerecha {
+	animation: mostrarDerecha 1.5s;
+}
+
+@keyframes mostrarDerecha {
+	0% {
+		transform: translateX(60px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+.mostrarPlato {
+	animation: mostrarPlato 3s;
+}
+
+@keyframes mostrarPlato {
+	0% {
+		transform: translateX(600px) rotate(500deg);
+
+	}
+	100% {
+		
+		transform:translateX(0) rotate(360deg);
+	}
+}
+
+.mostrarNews {
+	animation: mostrarNews 2.5s;
+}
+
+@keyframes mostrarNews {
+	0% {
+		transform: translateX(-350px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}

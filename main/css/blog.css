@@ -1,9 +1,11 @@
 .tips h2, #test, #opi h2, #principal, #consejos{
-	text-align: center;
+	text-align: left;
 }
 
 #consejos h2{
 	color: #3c0283;
+   text-align: center;
+
 }
 
 
@@ -77,10 +79,27 @@
      	display: flex;
      }
      .blogarticle{
-    	text-align: center;
+    	
         grid-area: blogarticle;
      }
      .blogbutton {
         grid-area: blogbutton
      }
      /*final post del blog*/
+     .blogtitlesearch{
+        display: inline-block;
+        text-align: center;
+        padding: 14px;
+     }
+     #buscador {
+        overflow: auto;
+        white-space: nowrap;
+     }
+     #buscar {
+        border: 1px solid #3c0283;
+        width:50%
+        background:#3c0283;
+        border-radius: 50px;
+        margin:auto;
+
+     }

@@ -4,6 +4,29 @@
 //LAS ENTRADAS
 get_header();
 ?>
+<div>
+	
+<nav id="buscador">
+	<ul>
+	<?php
+ while(have_posts()){
+        the_post();
+ 
+?>		
+	<li class="blogtitlesearch"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+	<?php } ?>
+</ul>
+</nav>
+
+</ul>
+<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
+  <label>
+    <input id="buscar" type="search"  placeholder="<?php echo esc_attr_x( 'buscar …', 'placeholder' ) ?>" value="<?php echo get_search_query() ?>" name="s" title="<?php echo esc_attr_x( 'Search for:', 'label' ) ?>" />
+  </label>
+
+  <input type="submit" class="search-submit" value="<?php echo esc_attr_x( 'Search', 'submit button' ) ?>" />
+</form>
+</div>
 <div id="principal">
 				<h3>El comienzo de la salud es la nutrición</h3>
 				<q><b><i>La nutrición es importante porque es fundamental para el funcionamiento y el mantenimiento de las funciones vitales de los seres vivos, ayuda a mantener el equilibrio homeostático del organismo, tanto en procesos macrosistémicos, como la digestión o el metabolismo.</i></b></q>

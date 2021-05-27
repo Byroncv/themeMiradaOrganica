@@ -15,6 +15,7 @@ textarea {
   border-style: none;
   border-bottom: 1px solid #3c0283;
   width: 100%;
+  background-color: transparent;
 
 }
 ::placeholder {

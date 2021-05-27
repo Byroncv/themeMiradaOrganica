@@ -8,14 +8,14 @@ get_header();
 		
 			<!--call to action, boletín-->
 			<div id="main" class="margen">
-				<div id="fondo"></div>
+				<div id="fondo" class=" mostrarPlato"></div>
 
-				<main id="newsletter">
+				<main id="newsletter" class="mostrarNews">
 					<h1 id="mainh" tabindex="0">Alimentación Consciente</h1>
 					<p tabindex="0">Antes de iniciar una transición, lo más importante es asesorarse con profesionales.</p>
 					<p>¿Te gustaría recibir nuestro boletín?</p>
 				<form action="" id="formboletin" method="post"  >
-					<?php echo do_shortcode ('[contact-form-7 id="89" title="newsletter"]') ?>
+					<?php echo do_shortcode ('[contact-form-7 id="217" title="Newsletter"]') ?>
 				</form>
 				</main>
 			
@@ -29,7 +29,7 @@ get_header();
 			<!--Termina call to action-->
 			<!------------------------------------------------->
 			<!--seccion de servicios-->
-		<div id="servicios" class="margen">
+		<div id="servicios" class="margen animado">
 			<h2 tabindex="0">Podés lograr una alimentación
 				responsable</h2>
 				<p>Sin dietas militares ni explotación animal</p>
@@ -69,9 +69,9 @@ get_header();
 	
 		<section id="about" class="margen">
 			
-			<h2 tabindex="0">Soy la Licenciada Rebeca Coto </h2>
-			<div id="becafoto" alt="Avatar de la lic. Rebeca"  tabindex="0" role="img" loading="lazy"> </div>
-			<p tabindex="0">Nutricionista y activista por los derechos de los animales, graduada de la Universidad Hispanoamericana, es un placer ayudarte a tener una vida saludable y sin explotación animal.</p>
+			<h2 tabindex="0" class="animado3">Soy la Licenciada Rebeca Coto </h2>
+			<div id="becafoto" alt="Avatar de la lic. Rebeca"  tabindex="0" role="img" loading="lazy" class="animado2"> </div>
+			<p tabindex="0" class="animado3">Nutricionista y activista por los derechos de los animales, graduada de la Universidad Hispanoamericana, es un placer ayudarte a tener una vida saludable y sin explotación animal.</p>
 
 		</section>
 		
@@ -98,7 +98,7 @@ get_header();
          while ($blog->have_posts()) {
            $blog->the_post();
           ?>
-	<div class="container1">	
+	<div class="container1 animado">	
 
   <div class="card1">
     <h2 class="title"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h2>
@@ -120,7 +120,7 @@ get_header();
 			<h2 tabindex="0">Contáctenos</h2>
 			
 			<div id="formu">
-				<?php echo do_shortcode ('[contact-form-7 id="75" title="Contacto"]') ?>
+				<?php echo do_shortcode ('[contact-form-7 id="224" title="Contacto"]') ?>
 			</div>
 		
 		<div id="map">

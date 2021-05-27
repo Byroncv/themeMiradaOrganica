@@ -36,12 +36,14 @@ function calendario(){
 			'labels' => array(
 				'name' => 'calendario',
 				'add_new_item' =>'agregar nombre' ,
-				'add_new' =>'agregar fecha' ,
+				'add_new' =>'Agregar Cita' ,
 				'edit_item' => 'Editar nombre',
-				'all_items' => 'Todos los nombres'
+				'all_items' => 'Todas las citas'
+
+				
 			),
 
-
+  		
 	));
 
 }
