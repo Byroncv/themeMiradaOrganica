@@ -1,2 +1,2 @@
-# themeMiradaOrganica
+# ThemeMiradaOrganica
 tema de mirada orgánica
